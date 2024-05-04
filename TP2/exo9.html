@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TP2: Exo9 </title>
+<meta charset="UTF-8"/>
+<style type="text/css">
+	body{
+		background-color: #003C43;
+		font-family: sans-serif;
+	}
+
+	.container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 30px;
+	}
+
+	div {
+		background-color: white;
+		width: 900px ;
+		height: fit-content;
+		border-radius:10px	;
+		padding: 30px;
+		}
+ 
+	.header{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+
+
+	}
+
+	img {
+		width: 100px;
+		height: 100px;
+	}
+
+	input[type="text"]{
+		padding: 10px;
+		  border: 1px solid #ccc;
+
+	}
+
+	select{
+		padding: 10px;
+	}
+
+	.btn {
+		padding: 10px;
+		background-color: #135D66;
+		cursor: pointer;
+		font-weight: bold;
+		color: white;
+
+	}
+	.btn:hover{
+		background-color: #77B0AA;
+	}
+
+</style>
+
+</head>
+<body class="container">
+
+	<div class="header">
+		<img src="logo.png">
+		<h1>Faculte d'informatique</h1>
+	</div>
+
+	<div class="t1">
+		<h1>TP4-1:Fiche de Projet de fin d'etude  (Licence/Master) , Filiere Informatique</h1>
+		<hr> 
+		<p>Etiam vulputate id nunc efficitur pellentesque. Suspendisse tempus non sapien sit amet fringilla. Aenean vitae vehicula massa, sit amet sagittis tellus. Mauris nec blandit tortor. Ut gravida mi ac velit hendrerit, at elementum mauris venenatis. Maecenas egestas porta nibh in fringilla. Nullam gravida gravida tellus, tincidunt cursus velit cursus eu. Praesent ipsum risus</p>
+
+		<p style="color: red;">*Obligatoire</p>
+	</div>
+
+	<div class="inputs">
+	<label for="name">Nom: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+	<div class="inputs">
+	<label for="name">Prenom: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+	<div class="inputs">
+	<label for="name">Matricule: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+	
+
+	<div class="inputs">
+	<label for="name">Email: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+	<div class="inputs">
+	<label for="name">Telephone: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+<div class="inputs">
+	<label>Palier</label> <br> <br>
+	<input type="radio" id="homme" name="genre" value="homme" required>
+    <label for="homme">Licence</label><br>    
+    <input type="radio" id="femme" name="genre" value="femme" required>
+     <label for="femme">Master</label><br><br>
+	</div>
+
+<div class="inputs">
+	<label>Votre Sepcialite</label><br> <br>
+	<select id="option" name="option">
+            <option value="SPEC1">SPEC1</option>
+            <option value="SPEC2">SPEC2</option>
+            <option value="SPEC3">SPEC3</option>
+      </select><br><br>
+</div>
+
+<div>
+	<label>Domaine</label> <br><br>
+	<input type="checkbox" id="choix1" name="choix1" value="voiture">
+    <label for="choix1">D1</label><br>
+    <input type="checkbox" id="choix2" name="choix2" value="moto">
+    <label for="choix2">D2</label><br>
+    <input type="checkbox" id="choix3" name="choix3" value="velo">
+    <label for="choix3">D3</label><br>
+    <input type="checkbox" id="choix3" name="choix3" value="velo">
+    <label for="choix3">D4</label><br>
+    <input type="checkbox" id="choix3" name="choix3" value="velo">
+    <label for="choix3">D5</label><br>
+    <input type="checkbox" id="choix3" name="choix3" value="velo">
+    <label for="choix3">D6</label><br>
+
+</div>
+
+<div class="inputs">
+	<label>Type de porjet</label> <br> <br>
+	<input type="radio" id="homme" name="genre" value="homme" required>
+    <label for="homme">Licence</label><br>    
+    <input type="radio" id="femme" name="genre" value="femme" required>
+     <label for="femme">Master</label><br><br>
+	</div>
+
+
+<div class="inputs">
+	<label for="name">Intitule du Projet: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+	<div class="inputs">
+	<label for="name">Resume du Projet: *</label><br><br>
+	<input type="text" name="name" placeholder="votre reponse">
+	</div>
+
+	<input class="btn" type="submit" name="submit" value="Envoyer">
+
+</body>
+</html>
